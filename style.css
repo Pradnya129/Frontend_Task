@@ -13,7 +13,7 @@ body {
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
-    padding: 15px;
+    padding: 10px;
     border: 1px solid #ddd;
     border-radius: 8px;
     transition: all 0.3s ease;
@@ -55,15 +55,17 @@ body {
 }
 
 .bundle-title {
-    font-size: 18px;
+    font-size: 16px;
     font-weight:500;
+    margin: 3px;
 
 }
 
 .price {
     font-size: 16px;
     color: #333;
-    margin: 10px 0px;
+    margin: 3px;
+    font-weight: 600;
 }
 
 .discount {
@@ -108,6 +110,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items:start;
+    
 }
 
 .styled-dropdown {
