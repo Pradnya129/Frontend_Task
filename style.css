@@ -22,7 +22,7 @@ body {
 }
 
 .bundle-box.active {
-    height: 200px;
+    height: 180px;
     border: 1px solid  #218838;
 }
 .bundle-box:hover{
