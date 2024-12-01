@@ -8,6 +8,7 @@ document.querySelectorAll('.bundle-box').forEach(box => {
       });
       // Toggle the clicked box
       box.classList.toggle('active');
+      
     });
   });
 
