@@ -12,8 +12,8 @@ body {
 .bundle-box {
     display: flex;
     flex-direction: column;
-    margin-bottom: 20px;
-    padding: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
     border: 1px solid #ddd;
     border-radius: 8px;
     transition: all 0.3s ease;
@@ -44,14 +44,14 @@ body {
     width: 300px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+    padding: 10px;
     margin-bottom: 10px;
     overflow: hidden;
 }
 
 .heading {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .bundle-title {
@@ -109,7 +109,7 @@ body {
 .bundle-title-price {
     display: flex;
     justify-content: space-between;
-    align-items:start;
+    align-items:first baseline;
     
 }
 
